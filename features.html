@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features &amp; Guide | Litepad</title>
+  <meta name="description" content="Learn how Litepad works: preview mode, split view, editing, dark mode, default app setup, and exporting markdown to PDF.">
+  <meta property="og:title" content="Features &amp; Guide | Litepad">
+  <meta property="og:description" content="A practical walkthrough of Litepad's preview, split view, editing tools, themes, default app setup, and PDF export.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/outside-icons/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Features &amp; Guide | Litepad">
+  <meta name="twitter:description" content="Get to know Litepad and see how it handles markdown on macOS.">
+  <link rel="icon" type="image/png" href="assets/outside-icons/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html" aria-label="Litepad home">
+        <img src="assets/logo/icon/Icon Explorations/icon-512x512.png" alt="">
+        <span class="nav-wordmark">Litepad<span class="dot">.</span></span>
+      </a>
+      <div class="nav-right">
+        <a class="nav-link" href="features.html" aria-current="page">Features &amp; Guide</a>
+        <a class="btn-primary nav-cta" href="#">
+          <img src="assets/outside-icons/apple-icon.svg" alt="">
+          <span>Download for Mac</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="section-beige">
+    <section class="features-header">
+      <div class="container">
+        <h1>Features &amp; Guide</h1>
+        <p>Everything Litepad does is built around one idea: markdown files should open like readable documents first, with editing controls available when you need them.</p>
+      </div>
+    </section>
+
+    <section class="features-page">
+      <div class="container">
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Preview Mode</h2>
+            <p>The default experience. Open any <code>.md</code> file and Litepad renders it with proper headings, spacing, code blocks, and lists.</p>
+            <div class="feature-instruction">Litepad opens in Preview by default. Just double-click any markdown file in Finder and start reading.</div>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window">
+              <div class="app-titlebar">
+                <div class="app-dots"><span></span><span></span><span></span></div>
+                <span class="app-filename">preview.md</span>
+              </div>
+              <div class="app-body">
+                <div class="mini-lines">
+                  <div class="mini-line short"></div>
+                  <div class="mini-line long"></div>
+                  <div class="mini-line mid"></div>
+                  <div class="mini-line long"></div>
+                  <div class="mini-line short"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Split View</h2>
+            <p>See the markdown source and the rendered preview side by side. It is useful when reviewing AI-generated files or checking structure without losing readability.</p>
+            <div class="feature-instruction">Click <strong>Split</strong> in the toolbar to keep source on one side and preview on the other.</div>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window">
+              <div class="split-preview">
+                <div class="split-pane raw">
+                  <pre>## Roadmap
+- polish
+- test
+- ship</pre>
+                </div>
+                <div class="split-pane rendered">
+                  <div class="mini-lines">
+                    <div class="mini-line short"></div>
+                    <div class="mini-line long"></div>
+                    <div class="mini-line mid"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Edit Mode</h2>
+            <p>When you need to make changes, Litepad switches into a focused source editor. The formatting toolbar helps with headings, emphasis, lists, tables, and more.</p>
+            <div class="feature-instruction">Click <strong>Edit</strong> to switch to source mode, then use the toolbar for quick formatting while you write.</div>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window">
+              <div class="app-titlebar">
+                <div class="app-dots"><span></span><span></span><span></span></div>
+                <span class="app-filename">edit.md</span>
+              </div>
+              <div class="app-body">
+                <div class="code-slab">
+                  <pre># Edit mode
+
+**Bold**
+- List item
+| Table | Row |</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Dark Mode &amp; Themes</h2>
+            <p>Litepad follows your system appearance and supports theme choices for people who prefer lower glare, especially during long reading sessions.</p>
+            <div class="feature-instruction">Open theme settings in the app preferences to follow system mode or choose a theme manually.</div>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window dark">
+              <div class="app-titlebar">
+                <div class="app-dots"><span></span><span></span><span></span></div>
+                <span class="app-filename">dark.md</span>
+              </div>
+              <div class="app-body">
+                <div class="mini-lines">
+                  <div class="mini-line short"></div>
+                  <div class="mini-line long"></div>
+                  <div class="mini-line mid"></div>
+                  <div class="mini-line long"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Set Litepad as Your Default Markdown App</h2>
+            <p>If you want every markdown file to open in Litepad automatically, macOS lets you switch the default app for the <code>.md</code> file type in a few clicks.</p>
+            <ol class="feature-steps">
+              <li>Right-click any <code>.md</code> file in Finder.</li>
+              <li>Choose <strong>Get Info</strong>.</li>
+              <li>Under <strong>Open With</strong>, select Litepad.</li>
+              <li>Click <strong>Change All</strong> to apply it to every markdown file.</li>
+            </ol>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window">
+              <div class="app-body">
+                <div class="mini-lines">
+                  <div class="mini-line short"></div>
+                  <div class="mini-line long"></div>
+                  <div class="mini-line mid"></div>
+                  <div class="mini-line long"></div>
+                  <div class="mini-line short"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-text">
+            <h2>Print &amp; Export to PDF</h2>
+            <p>Markdown does not have to stay inside markdown workflows. Litepad can turn a clean preview into a printable document or exported PDF when you need to share it.</p>
+            <div class="feature-instruction">Use <strong>File → Print</strong> or press <strong>⌘P</strong> to print or save the rendered document as a PDF.</div>
+          </div>
+          <div class="feature-image">
+            <div class="mini-window">
+              <div class="app-body">
+                <div class="render-demo">
+                  <h3>Printable output</h3>
+                  <p>Open, preview, print, or export without reformatting the file somewhere else first.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-beige">
+    <div class="footer-inner">
+      <div class="footer-copy">
+        <a class="footer-brand" href="index.html" aria-label="Litepad home">
+          <img src="assets/logo/icon/Icon Explorations/icon-512x512.png" alt="">
+          <span class="footer-wordmark">Litepad<span class="dot">.</span></span>
+        </a>
+        <p class="footer-copyright">© 2026 Litepad. Built for reading markdown on macOS.</p>
+        <p class="footer-note">Also from our team: <a href="https://sidepad.app/">Sidepad</a> for capturing AI conversations from your browser.</p>
+        <p class="footer-support">Support: <a href="mailto:support@litepad.app">support@litepad.app</a></p>
+        <div class="footer-download">
+          <a class="btn-primary nav-cta" href="#">
+            <img src="assets/outside-icons/apple-icon.svg" alt="">
+            <span>Download for Mac</span>
+          </a>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features &amp; Guide</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:support@litepad.app">Support</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
