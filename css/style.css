@@ -323,7 +323,14 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.hero-trust {
+  margin-top: 12px;
   margin-bottom: 56px;
+  font-size: 13px;
+  color: rgba(16, 24, 32, 0.45);
+  letter-spacing: 0.01em;
 }
 
 .app-window {
@@ -344,7 +351,6 @@ h3 {
   height: auto;
   display: block;
   border-radius: var(--radius-l) var(--radius-l) 0 0;
-  box-shadow: 0 -2px 60px rgba(0, 0, 0, 0.05);
 }
 
 .app-titlebar {
