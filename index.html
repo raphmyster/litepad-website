@@ -50,18 +50,30 @@
           </div>
         </div>
         <div class="hero-screenshot" aria-label="Litepad preview mode interface">
-          <img src="assets/screenshots/git-hero.png" alt="Litepad showing a Git cheat sheet in preview mode" width="2226" height="1200">
+          <img src="assets/screenshots/hero-prd-cropped.png" alt="Litepad showing a product requirements document in preview mode" width="2290" height="1300">
         </div>
       </section>
 
-      <section class="education section-white">
-        <div class="container education-inner">
-          <div class="education-text">
-            <h2>You’ve seen these files.</h2>
-            <p>.md files are everywhere now. AI assistants write them, developer tools export them, and people share them like lightweight documents. The problem is they still open like source files instead of something meant to be read.</p>
+      <section class="pdf-analogy section-white">
+        <div class="container pdf-analogy-inner">
+          <div class="pdf-copy">
+            <h2>PDFs had Adobe Reader. Markdown has <span class="text-green">Litepad.</span></h2>
+            <p>People already understand "a file opens in the right reader." Litepad gives markdown that same obvious destination: double-click, preview, and read.</p>
           </div>
-          <div class="education-compare">
-            <img src="assets/screenshots/split-view-website.png" alt="Litepad split view showing raw markdown on the left and rendered preview on the right" width="1372" height="1032">
+          <div class="equation" aria-label="PDF compared with markdown reading app">
+            <div class="format-chip format-chip--pdf">
+              <div>
+                <strong>.pdf</strong>
+                <span>Adobe Reader</span>
+              </div>
+            </div>
+            <div class="equation-arrow" aria-hidden="true">→</div>
+            <div class="format-chip format-chip--md">
+              <div>
+                <strong>.md</strong>
+                <span>Litepad</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -73,50 +85,13 @@
             <div class="eyebrow bento-kicker">Three ways to view</div>
           </div>
           <div class="bento-grid">
-            <article class="bento-card bento-card--pdf">
-              <div class="pdf-copy">
-                <h3>PDFs had Adobe Reader. Markdown has <span class="text-green">Litepad.</span></h3>
-                <p>People already understand “a file opens in the right reader.” Litepad gives markdown that same obvious destination: double-click, preview, and read.</p>
-              </div>
-              <div class="equation" aria-label="PDF compared with markdown reading app">
-                <div class="format-chip format-chip--pdf">
-                  <div>
-                    <strong>.pdf</strong>
-                    <span>Adobe Reader</span>
-                  </div>
-                </div>
-                <div class="equation-arrow" aria-hidden="true">→</div>
-                <div class="format-chip format-chip--md">
-                  <div>
-                    <strong>.md</strong>
-                    <span>Litepad</span>
-                  </div>
-                </div>
-              </div>
-            </article>
-
             <article class="bento-card bento-card--preview">
               <div class="bento-card-body">
                 <h3>Preview Mode</h3>
                 <p>The default. Double-click and read without seeing the syntax unless you want to.</p>
               </div>
-              <div class="mini-window" aria-hidden="true">
-                <div class="app-titlebar">
-                  <div class="app-dots"><span></span><span></span><span></span></div>
-                  <span class="app-filename">preview.md</span>
-                </div>
-                <div class="app-body">
-                  <div class="mini-lines">
-                    <div class="mini-line short"></div>
-                    <div class="mini-line long"></div>
-                    <div class="mini-line mid"></div>
-                    <div class="mini-line long"></div>
-                    <div class="mini-line short"></div>
-                    <div class="mini-line long"></div>
-                    <div class="mini-line mid"></div>
-                    <div class="mini-line long"></div>
-                  </div>
-                </div>
+              <div class="bento-card-image">
+                <img src="assets/screenshots/Solar System.png" alt="Solar System Research Summary rendered in Litepad preview mode">
               </div>
             </article>
 
@@ -125,22 +100,8 @@
                 <h3>Split View</h3>
                 <p>See source and output side by side when you need context without losing readability.</p>
               </div>
-              <div class="mini-window" aria-hidden="true">
-                <div class="split-preview">
-                  <div class="split-pane raw">
-                    <pre>## Split View
-- source
-- preview
-`⌘\\`</pre>
-                  </div>
-                  <div class="split-pane rendered">
-                    <div class="mini-lines">
-                      <div class="mini-line short"></div>
-                      <div class="mini-line long"></div>
-                      <div class="mini-line mid"></div>
-                    </div>
-                  </div>
-                </div>
+              <div class="bento-card-image">
+                <img src="assets/screenshots/split-view-website.png" alt="Litepad split view showing raw markdown and rendered preview side by side">
               </div>
             </article>
 
@@ -149,19 +110,18 @@
                 <h3>Dark Mode</h3>
                 <p>For late-night reading sessions, system-matched themes, and lower glare.</p>
               </div>
-              <div class="mini-window dark" aria-hidden="true">
-                <div class="app-titlebar">
-                  <div class="app-dots"><span></span><span></span><span></span></div>
-                  <span class="app-filename">night-notes.md</span>
-                </div>
-                <div class="app-body">
-                  <div class="mini-lines">
-                    <div class="mini-line short"></div>
-                    <div class="mini-line long"></div>
-                    <div class="mini-line mid"></div>
-                    <div class="mini-line long"></div>
-                  </div>
-                </div>
+              <div class="bento-card-image">
+                <img src="assets/screenshots/Q1.png" alt="Q1 Project Brief rendered in Litepad dark mode">
+              </div>
+            </article>
+
+            <article class="bento-card bento-card--no-ide">
+              <div class="no-ide-copy">
+                <h3>You don't need an IDE to read a document.</h3>
+                <p>VS Code, GitHub, Obsidian — they all render markdown, but they're tools you work <em>inside</em>. Litepad is the reader that lives <em>outside</em>. Double-click any .md file in Finder and it opens instantly — no project, no workspace, no account.</p>
+              </div>
+              <div class="no-ide-image">
+                <img src="assets/screenshots/Git Final.png" alt="Git Cheat Sheet rendered in Litepad preview mode">
               </div>
             </article>
           </div>
