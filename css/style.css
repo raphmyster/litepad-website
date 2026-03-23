@@ -801,42 +801,13 @@ h3 {
 }
 
 .tip-hero-image {
-  flex: 0 0 180px;
+  flex: 0 0 420px;
 }
 
-.tip-hero-image .mini-window {
-  overflow: hidden;
-  border: 1px solid var(--beige-300);
+.tip-hero-image img {
+  width: 100%;
+  height: auto;
   border-radius: var(--radius-m);
-}
-
-.tip-hero-image .mini-window-body {
-  padding: 20px;
-  background: var(--white);
-}
-
-.tip-hero-image .mini-lines {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.tip-hero-image .mini-line {
-  height: 6px;
-  border-radius: 3px;
-  background: var(--beige-200);
-}
-
-.tip-hero-image .mini-line.short {
-  width: 40%;
-}
-
-.tip-hero-image .mini-line.mid {
-  width: 65%;
-}
-
-.tip-hero-image .mini-line.long {
-  width: 90%;
 }
 
 .tips-grid {
@@ -1061,6 +1032,10 @@ h3 {
 
   .tip-hero h2 {
     font-size: 18px;
+  }
+
+  .tip-hero-image {
+    flex: 0 0 320px;
   }
 
   .bento-grid {
