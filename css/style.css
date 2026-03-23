@@ -199,12 +199,13 @@ h3 {
 }
 
 .btn-primary img {
-  width: 14px;
-  height: 14px;
+  width: 21px;
+  height: 21px;
+  filter: invert(1);
 }
 
 .btn-primary img + span {
-  padding-right: 22px;
+  padding-right: 0;
 }
 
 .site-shell {
@@ -634,7 +635,7 @@ h3 {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: linear-gradient(160deg, #d9d5c8, #c8d5c1);
+  object-fit: cover;
 }
 
 .t-name {
