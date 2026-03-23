@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Features &amp; Guide | Litepad</title>
-  <meta name="description" content="Learn how Litepad works: preview mode, split view, editing, dark mode, default app setup, and exporting markdown to PDF.">
+  <meta name="description" content="Tips and shortcuts for getting the most out of Litepad — set it as your default, clipboard tricks, floating windows, themes, and PDF export.">
   <meta property="og:title" content="Features &amp; Guide | Litepad">
-  <meta property="og:description" content="A practical walkthrough of Litepad's preview, split view, editing tools, themes, default app setup, and PDF export.">
+  <meta property="og:description" content="Tips and shortcuts for getting the most out of Litepad — set it as your default, clipboard tricks, floating windows, themes, and PDF export.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/outside-icons/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Features &amp; Guide | Litepad">
-  <meta name="twitter:description" content="Get to know Litepad and see how it handles markdown on macOS.">
+  <meta name="twitter:description" content="Tips and shortcuts for getting the most out of Litepad on macOS.">
   <link rel="icon" type="image/png" href="assets/outside-icons/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,114 +40,27 @@
     <section class="features-header">
       <div class="container">
         <h1>Features &amp; Guide</h1>
-        <p>Everything Litepad does is built around one idea: markdown files should open like readable documents first, with editing controls available when you need them.</p>
+        <p>A few things worth knowing once you've downloaded Litepad. Small features that make a big difference in your day-to-day.</p>
       </div>
     </section>
 
-    <section class="features-page">
+    <section class="features-tips">
       <div class="container">
-        <article class="feature-card">
-          <div class="feature-text">
-            <h2>Preview Mode</h2>
-            <p>The default experience. Open any <code>.md</code> file and Litepad renders it with proper headings, spacing, code blocks, and lists.</p>
-            <div class="feature-instruction">Litepad opens in Preview by default. Just double-click any markdown file in Finder and start reading.</div>
-          </div>
-          <div class="feature-image">
-            <div class="mini-window">
-              <div class="app-titlebar">
-                <div class="app-dots"><span></span><span></span><span></span></div>
-                <span class="app-filename">preview.md</span>
-              </div>
-              <div class="app-body">
-                <div class="mini-lines">
-                  <div class="mini-line short"></div>
-                  <div class="mini-line long"></div>
-                  <div class="mini-line mid"></div>
-                  <div class="mini-line long"></div>
-                  <div class="mini-line short"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-text">
-            <h2>Split View</h2>
-            <p>See the markdown source and the rendered preview side by side. It is useful when reviewing AI-generated files or checking structure without losing readability.</p>
-            <div class="feature-instruction">Click <strong>Split</strong> in the toolbar to keep source on one side and preview on the other.</div>
-          </div>
-          <div class="feature-image">
-            <div class="mini-window">
-              <div class="split-preview">
-                <div class="split-pane raw">
-                  <pre>## Roadmap
-- polish
-- test
-- ship</pre>
-                </div>
-                <div class="split-pane rendered">
-                  <div class="mini-lines">
-                    <div class="mini-line short"></div>
-                    <div class="mini-line long"></div>
-                    <div class="mini-line mid"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-text">
-            <h2>Edit Mode</h2>
-            <p>When you need to make changes, Litepad switches into a focused source editor. The formatting toolbar helps with headings, emphasis, lists, tables, and more.</p>
-            <div class="feature-instruction">Click <strong>Edit</strong> to switch to source mode, then use the toolbar for quick formatting while you write.</div>
-          </div>
-          <div class="feature-image">
-            <div class="mini-window">
-              <div class="app-titlebar">
-                <div class="app-dots"><span></span><span></span><span></span></div>
-                <span class="app-filename">edit.md</span>
-              </div>
-              <div class="app-body">
-                <div class="code-slab">
-                  <pre># Edit mode
-
-**Bold**
-- List item
-| Table | Row |</pre>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-text">
-            <h2>Dark Mode &amp; Themes</h2>
-            <p>Litepad follows your system appearance and supports theme choices for people who prefer lower glare, especially during long reading sessions.</p>
-            <div class="feature-instruction">Open theme settings in the app preferences to follow system mode or choose a theme manually.</div>
-          </div>
-          <div class="feature-image">
-            <img src="assets/screenshots/Screenshot 2026-03-21 at 4.29.23 PM.png" alt="Litepad theme settings showing light and dark theme options">
-          </div>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-text">
+        <article class="tip-hero">
+          <div class="tip-hero-text">
+            <span class="tip-hero-label">First thing to do</span>
             <h2>Set Litepad as Your Default Markdown App</h2>
-            <p>If you want every markdown file to open in Litepad automatically, macOS lets you switch the default app for the <code>.md</code> file type in a few clicks.</p>
-            <ol class="feature-steps">
+            <p>Make every <code>.md</code> file open as a clean, readable document — no more raw text in Xcode or TextEdit.</p>
+            <ol class="tip-hero-steps">
               <li>Right-click any <code>.md</code> file in Finder.</li>
               <li>Choose <strong>Get Info</strong>.</li>
               <li>Under <strong>Open With</strong>, select Litepad.</li>
               <li>Click <strong>Change All</strong> to apply it to every markdown file.</li>
             </ol>
           </div>
-          <div class="feature-image">
+          <div class="tip-hero-image">
             <div class="mini-window">
-              <div class="app-body">
+              <div class="mini-window-body">
                 <div class="mini-lines">
                   <div class="mini-line short"></div>
                   <div class="mini-line long"></div>
@@ -160,23 +73,61 @@
           </div>
         </article>
 
-        <article class="feature-card">
-          <div class="feature-text">
-            <h2>Print &amp; Export to PDF</h2>
-            <p>Markdown does not have to stay inside markdown workflows. Litepad can turn a clean preview into a printable document or exported PDF when you need to share it.</p>
-            <div class="feature-instruction">Use <strong>File → Print</strong> or press <strong>⌘P</strong> to print or save the rendered document as a PDF.</div>
-          </div>
-          <div class="feature-image">
-            <div class="mini-window">
-              <div class="app-body">
-                <div class="render-demo">
-                  <h3>Printable output</h3>
-                  <p>Open, preview, print, or export without reformatting the file somewhere else first.</p>
-                </div>
-              </div>
+        <div class="tips-grid">
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
             </div>
-          </div>
-        </article>
+            <h3 class="tip-title">New File from Clipboard</h3>
+            <p class="tip-desc">Copy a response from ChatGPT or Claude and create an instant readable document — no file picker, no saving first.</p>
+            <span class="tip-shortcut">Ctrl + Cmd + N</span>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><line x1="9" y1="3" x2="9" y2="9"/></svg>
+            </div>
+            <h3 class="tip-title">Float on Top</h3>
+            <p class="tip-desc">Pin a spec or README above your IDE while you code. Keeps a reference doc visible without constantly switching windows.</p>
+            <span class="tip-shortcut">Window → Float on Top</span>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3.5" cy="6" r="1.5"/><circle cx="3.5" cy="12" r="1.5"/><circle cx="3.5" cy="18" r="1.5"/></svg>
+            </div>
+            <h3 class="tip-title">Table of Contents</h3>
+            <p class="tip-desc">Long AI-generated docs can be hard to scan. Open the Table of Contents to see every heading and jump to any section.</p>
+            <span class="tip-shortcut">Shift + Cmd + O</span>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </div>
+            <h3 class="tip-title">Dark Mode &amp; Themes</h3>
+            <p class="tip-desc">Litepad follows your system appearance automatically. You can also pick a theme manually in preferences to match your setup.</p>
+            <span class="tip-shortcut">Cmd + ,</span>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            </div>
+            <h3 class="tip-title">Print &amp; Export to PDF</h3>
+            <p class="tip-desc">Need to share a doc with someone who doesn&apos;t use markdown? Print or save as PDF from the rendered preview.</p>
+            <span class="tip-shortcut">Cmd + P</span>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            </div>
+            <h3 class="tip-title">Copy Path &amp; Reveal in Finder</h3>
+            <p class="tip-desc">Quickly grab the file path to paste into your terminal or IDE, or jump straight to the file&apos;s location in Finder.</p>
+            <span class="tip-shortcut">Cmd + R</span>
+          </article>
+        </div>
       </div>
     </section>
     </main>
