@@ -868,6 +868,18 @@ h3 {
   color: rgba(16, 24, 32, 0.5);
 }
 
+.tip-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-self: flex-start;
+  margin-top: 14px;
+}
+
+.tip-shortcuts .tip-shortcut {
+  margin-top: 0;
+}
+
 .tip-shortcut {
   display: inline-flex;
   align-self: flex-start;
